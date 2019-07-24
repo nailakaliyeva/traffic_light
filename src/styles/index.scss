@@ -1,31 +1,34 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 .stick{
-    background-color: black;
+    background-color:#2b2820;
     width: 15px;
-    height: 150px;
+    height: 50px;
     margin: auto;
+    border-radius: 2px;
 }
 .blackBox{
-    width: 10%;
-    height: 285px;
-    background-color: black;
+    width: 7%;
+    height: 190px;
+    background-color: #2b2820;
+
     margin: auto;
     padding-top: 1%;
+    border-radius: 15px;
 
 }
 .redCircle{
     background-color: red;
-    border-radius: 50px;
-    height: 80px;
-    width: 80px;
+    border-radius: 40px;
+    height: 47px;
+    width: 47px;
     margin: auto;
 }
 .yellowCircle{
     background-color: yellow;
     border-radius: 50px;
-    height: 80px;
-    width: 80px;
+    height: 47px;
+    width: 47px;
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -33,12 +36,17 @@
 .greenCircle{
     background-color: green;
     border-radius: 50px;
-    height: 80px;
-    width: 80px;
+    height: 47px;
+    width: 47px;
     margin: auto;
     margin-bottom: 10%;
 }
 .selected{
     box-shadow: white 0px 0px 40px 20px;
 
+}
+body{
+    background-image: url("https://media3.giphy.com/media/l0HlRaCJRVkRiVUNa/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -3,7 +3,7 @@ export default class Light extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			clicked: ""
+			clicked: "green"
 		};
 	}
 	render() {
