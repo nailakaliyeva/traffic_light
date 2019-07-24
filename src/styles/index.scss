@@ -11,7 +11,8 @@
     height: 285px;
     background-color: black;
     margin: auto;
-    padding: 1%;
+    padding-top: 1%;
+
 }
 .redCircle{
     background-color: red;
@@ -35,6 +36,9 @@
     height: 80px;
     width: 80px;
     margin: auto;
-
     margin-bottom: 10%;
+}
+.selected{
+    box-shadow: 2 2 white;
+
 }
